@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rabbia Batool | Full Stack Developer</title>
+<meta name="description" content="Rabbia Batool is a full stack developer building React/Next.js and Node.js web apps, REST APIs and AI-powered chat features. Available for freelance web development.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#F3F5F9; --panel:#FFFFFF; --ink:#14181F; --muted:#586072; --line:#D9DEE7; --accent:#2447C8; --accent-ink:#FFFFFF; --chip:#E6EBF8;
+  --serif:"Newsreader",Georgia,"Times New Roman",serif;
+  --sans:"Public Sans",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){--bg:#0F1420;--panel:#171E2E;--ink:#E8ECF4;--muted:#9AA5BB;--line:#2A3348;--accent:#8FA8FF;--accent-ink:#0F1420;--chip:#202A42}
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1rem/1.65 var(--sans);-webkit-font-smoothing:antialiased}
+a{color:var(--accent)}
+a:focus-visible,button:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:4px}
+.layout{max-width:1080px;margin:0 auto;padding:0 24px;display:grid;grid-template-columns:300px 1fr;gap:64px}
+aside{position:sticky;top:0;align-self:start;height:100vh;display:flex;flex-direction:column;justify-content:center;padding:40px 0}
+h1{font:600 clamp(2.2rem,4vw,3rem)/1.05 var(--serif);margin:0 0 12px;letter-spacing:-.01em}
+.role{font:500 1.05rem/1.4 var(--sans);margin:0 0 16px}
+.intro{color:var(--muted);margin:0 0 24px;max-width:34ch}
+nav ul{list-style:none;padding:0;margin:0 0 28px;display:grid;gap:6px}
+nav a{color:var(--muted);text-decoration:none;font-weight:500}
+nav a:hover{color:var(--ink);text-decoration:underline}
+.links{display:flex;flex-wrap:wrap;gap:10px}
+.btn{display:inline-block;padding:9px 16px;border-radius:6px;font-weight:600;font-size:.95rem;text-decoration:none;border:1.5px solid var(--accent)}
+.btn.primary{background:var(--accent);color:var(--accent-ink)}
+.btn.ghost{color:var(--accent)}
+.btn:hover{text-decoration:underline}
+main{padding:72px 0 80px}
+section{margin-bottom:64px}
+h2{font:600 1.7rem/1.2 var(--serif);margin:0 0 20px}
+h3{font:600 1.15rem/1.3 var(--sans);margin:0 0 6px}
+p{margin:0 0 14px;max-width:68ch}
+.project{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:24px;margin-bottom:20px}
+.project.featured{border-color:var(--accent);border-width:2px}
+.stack{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0 14px;padding:0;list-style:none}
+.stack li{background:var(--chip);border-radius:4px;padding:2px 9px;font-size:.82rem;font-weight:500}
+.chat{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:14px;margin:16px 0;font-size:.92rem;max-width:520px}
+.chat .q,.chat .a{padding:8px 12px;border-radius:8px;margin:0 0 8px;max-width:90%}
+.chat .q{background:var(--accent);color:var(--accent-ink);margin-left:auto}
+.chat .a{background:var(--panel);border:1px solid var(--line)}
+.chat small{display:block;color:var(--muted);margin-top:4px}
+.services{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.services div{border-top:2px solid var(--accent);padding-top:12px}
+.services p{color:var(--muted);font-size:.95rem;margin:0}
+dl{margin:0;display:grid;grid-template-columns:140px 1fr;gap:10px 16px}
+dt{font-weight:600}
+dd{margin:0;color:var(--muted)}
+footer{border-top:1px solid var(--line);padding:24px 0 40px;color:var(--muted);font-size:.9rem}
+@media (max-width:860px){
+  .layout{grid-template-columns:1fr;gap:0}
+  aside{position:static;height:auto;padding:48px 0 8px}
+  nav{display:none}
+  main{padding-top:32px}
+  .services{grid-template-columns:1fr}
+  dl{grid-template-columns:1fr;gap:2px 0}
+  dd{margin-bottom:10px}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="layout">
+  <aside>
+    <h1>Rabbia Batool</h1>
+    <p class="role">Full Stack Developer</p>
+    <p class="intro">I build web apps with React, Next.js and Node.js, including apps with AI chat features.</p>
+    <nav aria-label="Page sections">
+      <ul>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="links">
+      <a class="btn primary" href="mailto:rabbiabatool875@gmail.com">Email me</a>
+      <a class="btn ghost" href="Rabbia_Batool_Junior_Full_Stack_Developer_Resume.pdf">Download resume</a>
+    </div>
+  </aside>
+
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <p>I graduated in Software Engineering from UET Lahore in 2026. During my internship at Systems Limited I built a full-stack Student Management System with React/Next.js and Node.js, with secure JWT-based APIs and role-based access.</p>
+      <p>I like turning an idea into a working product: a clean interface, a solid API, and a database that holds up as the data grows.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <article class="project featured">
+        <h3>Marginalia: chat with your PDFs</h3>
+        <p>A full-stack chat app where you upload a PDF and ask questions about it. Answers are generated by the Claude API and grounded in the document using retrieval-augmented generation (RAG) with MySQL full-text search.</p>
+        <p>Users sign in with JWT authentication, manage conversations (create, rename, delete, search), and can listen to answers through the Web Speech API.</p>
+        <div class="chat" role="img" aria-label="Illustration of a question and answer in Marginalia">
+          <p class="q">What does section 3 say about deadlines?</p>
+          <p class="a">The answer appears here, taken from the passages of your PDF that match the question.<small>Illustration of the chat layout</small></p>
+        </div>
+        <ul class="stack"><li>React.js</li><li>Node.js</li><li>MySQL</li><li>Claude API</li><li>RAG</li><li>JWT</li></ul>
+        <a href="https://github.com/rabbiabatool?tab=repositories">View code on GitHub</a>
+      </article>
+
+      <article class="project">
+        <h3>CEO Travel &amp; Team Planning Portal</h3>
+        <p>A full-stack portal for planning executive trips, meetings and team schedules. It includes team calendars, flight tracking, role-based access, JSON export, and printable personalized itineraries.</p>
+        <ul class="stack"><li>Next.js</li><li>.NET</li><li>PostgreSQL</li><li>REST APIs</li></ul>
+        <a href="https://github.com/rabbiabatool?tab=repositories">View code on GitHub</a>
+      </article>
+
+      <article class="project">
+        <h3>Exe2Vision: malware detection</h3>
+        <p>An end-to-end system where you upload an .exe file in a React frontend and a backend API classifies its malware family. Executables are converted to assembly, n-gram features are mapped to RGB values to create images, and deep learning models classify them.</p>
+        <ul class="stack"><li>Python</li><li>Deep Learning</li><li>React (Vite)</li><li>APIs</li></ul>
+        <a href="https://github.com/rabbiabatool?tab=repositories">View code on GitHub</a>
+      </article>
+    </section>
+
+    <section id="services">
+      <h2>Services</h2>
+      <div class="services">
+        <div><h3>Web apps</h3><p>Responsive front ends and full-stack apps with React, Next.js, Node.js, Express or .NET.</p></div>
+        <div><h3>REST APIs and sign-in</h3><p>Backend APIs with JWT authentication and role-based access for different user types.</p></div>
+        <div><h3>Database features</h3><p>Data-driven pages using MySQL, PostgreSQL or MongoDB, including searchable, filterable and paginated tables.</p></div>
+        <div><h3>AI chat features</h3><p>Chatbots powered by the Claude API, including answers grounded in your own documents.</p></div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <dl>
+        <dt>Frontend</dt><dd>HTML5, CSS3, JavaScript (ES6+), React.js, Next.js</dd>
+        <dt>Backend</dt><dd>Node.js, Express.js, REST APIs, JWT, .NET, Entity Framework</dd>
+        <dt>Databases</dt><dd>MySQL, PostgreSQL, MongoDB</dd>
+        <dt>Languages</dt><dd>JavaScript, Python, C#, C++, SQL</dd>
+        <dt>Tools</dt><dd>Git, GitHub, Jira, Docker, AWS (EC2, IAM, VPC)</dd>
+      </dl>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Have a project in mind? Send me a short description and I will reply with questions and a plan.</p>
+      <div class="links">
+        <a class="btn primary" href="mailto:rabbiabatool875@gmail.com">rabbiabatool875@gmail.com</a>
+        <a class="btn ghost" href="https://www.linkedin.com/in/rabbia-batool-a55799280/">LinkedIn</a>
+        <a class="btn ghost" href="https://github.com/rabbiabatool?tab=repositories">GitHub</a>
+      </div>
+    </section>
+
+    <footer>&copy; 2026 Rabbia Batool</footer>
+  </main>
+</div>
+</body>
+</html>
